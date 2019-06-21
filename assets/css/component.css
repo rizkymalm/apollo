@@ -1,0 +1,59 @@
+.desk{display: block;}
+.mob{display: none;}
+
+.size-std{font-size: 12px;}
+.size-cute{font-size: 10px; font-family: "MONTSERRATL";}
+.size-note{font-style: italic; font-size: 0.9em; font-family: "MONTSERRATL";}
+.size-head1{font-size: 3em; font-family: "MONTSERRATB"}
+.size-head2{font-size: 2.4em; font-family: "MONTSERRAT"}
+.size-head3{font-size: 2em; font-family: "MONTSERRAT"}
+.size-head4{font-size: 1.5em; font-family: "MONTSERRAT"}
+
+
+@media screen and (max-width: 1600px){      
+	.size-std{font-size: 13px;}
+	.size-cute{font-size: 11px}
+	.size-note{font-size: 8px}
+	.size-head1{font-size: 44px;}
+	.size-head2{font-size: 34px;}
+	.size-head3{font-size: 20px;}
+	.size-head4{font-size: 16px;}
+}
+@media screen and (max-width: 1024px){
+	.size-std{font-size: 1em;}
+	.size-cute{font-size: .6em;}
+	.size-note{font-size: .4em}
+	.size-head1{font-size: 3em;}
+	.size-head2{font-size: 2.4em;}
+	.size-head3{font-size: 2em;}
+	.size-head4{font-size: 1.3em;}
+}
+@media screen and (max-width: 650px){
+	.size-std{font-size: .85em;}
+	.size-cute{font-size: 2.2vw;}
+	.size-note{font-size: 1.1vw}
+	.size-head1{font-size: 2.8em;}
+	.size-head2{font-size: 2em;}
+	.size-head3{font-size: 1.7em;}
+	.size-head4{font-size: 1.3em;}
+}
+
+ul.nopad{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+p.nopad,
+h1.nopad,
+h2.nopad,
+h3.nopad{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+

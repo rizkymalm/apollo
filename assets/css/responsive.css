@@ -1,0 +1,15 @@
+.desk{display: block;}
+.mob{display: none;}
+@media screen and (max-width: 1600px){
+	.desk{display: block;}
+	.mob{display: none;}
+}
+@media screen and (max-width: 1024px){
+	.desk{display: block;}
+	.mob{display: none;}
+}
+@media screen and (max-width: 1024px){
+	.desk{display: none;}
+	.mob{display: block;}
+}
+@media screen and (max-width: 650px){}

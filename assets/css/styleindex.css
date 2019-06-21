@@ -1,0 +1,126 @@
+a,p{
+	text-decoration: none;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	max-width: 100%;
+	overflow-x: hidden !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container{
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	width: 100%;
+	max-width: 2300px;
+	height: auto;
+}
+.header{
+	position: fixed;
+	top: 0; right: 0; left: 0; margin:auto;
+	width: 100%;
+	padding: 10px 40px;
+	background-color: #000000;
+	border-bottom: 1px solid #d7d7d7;
+	z-index: 10;
+	font-family: 'Montserrat', sans-serif;
+}
+.headLogo{
+	position: relative;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	height: 50px;
+	float: left;
+}
+.headLogo img{
+	height: 100%;
+}
+.mainMenu{
+	position: relative;
+	padding-left: 100px;
+	float: left;
+	z-index: 10;
+}
+.mainMenu ul{
+	float: left;
+	padding-left: 0;
+}
+.mainMenu ul li{
+	float: left;
+	padding: 5px 15px;
+}
+.mainMenu ul li a,
+.rightMenu ul li a{
+	color: #ffffff;
+}
+.rightMenu{
+	float: right;
+	padding-right: 20px;
+}
+.rightMenu ul{
+	float: right;
+	padding-right: 0;
+}
+.rightMenu ul li{
+	float: right;
+	padding: 5px 15px;
+}
+
+.customSlide{
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: 8;
+}
+
+.freemodeSlide{
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: 8;
+}
+.slideInfo{
+	position: absolute;
+	top: 0;	right: 0;bottom: 0;	left: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	color: #ffffff;
+	text-align: center;
+}
+.slideInfo .middleInfo{
+	top: 50%;
+	transform: translateY(50%);
+}
+.slideInfo a{
+	padding: 10px 15px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+.slideInfo:hover .swiper-slide img{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transition: -webkit-transform .100s ease;
+	-moz-transition: -moz-transform .100s ease;
+	-o-transition: -o-transform .100s ease;
+	-ms-transition: -ms-transform .100s ease;
+	transition: transform .100s ease;
+}
